@@ -47,3 +47,47 @@ h1, h2, h3 {
   padding: 0 20px;
 }
 .heading p {color: hsl(0, 0%, 50%);}
+
+.form/*, .content */ {
+  width: 70%;
+  margin: 0 auto;
+}
+.form-group {margin-bottom: 10px;}
+.form-group input/*, .form-group textarea, .form-group select */ {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 5px;
+  font-family: inherit;
+}
+/* .form-group label {
+  display: block;
+  margin: 0 0 5px 3px;
+  text-align: left;
+} */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+}
+/* .btn svg {margin-right: 8px;} */
+/* .btn-reverse {
+  background: #fff;
+  color: #000;
+} */
+.btn-block {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.btn:hover {transform: scale(0.98);}
