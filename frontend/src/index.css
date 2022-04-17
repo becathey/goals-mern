@@ -19,6 +19,13 @@ h1, h2, h3 {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
 .header {
   display: flex;
   justify-content: space-between;
