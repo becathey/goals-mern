@@ -88,7 +88,7 @@ h1, h2, h3 {
   text-align: center;
   appearance: button;
 }
-/* .btn svg {margin-right: 8px;} */
+.btn svg {margin-right: 8px;}
 /* .btn-reverse {
   background: #fff;
   color: #000;
