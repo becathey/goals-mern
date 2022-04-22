@@ -68,11 +68,11 @@ h1, h2, h3 {
   border-radius: 5px;
   font-family: inherit;
 }
-/* .form-group label {
+.form-group label {
   display: block;
   margin: 0 0 5px 3px;
   text-align: left;
-} */
+}
 .btn {
   display: flex;
   justify-content: center;
