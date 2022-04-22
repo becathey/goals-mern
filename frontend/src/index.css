@@ -55,7 +55,7 @@ h1, h2, h3 {
 }
 .heading p {color: hsl(0, 0%, 50%);}
 
-.form/*, .content */ {
+.form, .content {
   width: 70%;
   margin: 0 auto;
 }
@@ -98,6 +98,17 @@ h1, h2, h3 {
   margin-bottom: 20px;
 }
 .btn:hover {transform: scale(0.98);}
+.goals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.goal {
+  position: relative;
+  margin: 10px 0;
+  padding: 20px 0 10px;
+  background-color: hsl(0, 0%, 90%);
+}
 .loadingSpinnerContainer {
   display: flex;
   justify-content: center;
