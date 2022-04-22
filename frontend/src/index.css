@@ -122,3 +122,8 @@ h1, h2, h3 {
   0% {transform: rotate(1deg);}
   100% {transform: rotate(360deg);}
 }
+@media (max-width: 600px) {
+  .form {width: 90%;}
+  .heading h1 {font-size: 2rem;}
+  .heading p {font-size: 1.5rem;}
+}
