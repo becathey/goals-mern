@@ -1,6 +1,9 @@
 {
   "name": "220409_goals",
   "version": "1.0.0",
+  "engines": {
+    "node": ">= v20.6.1"
+  },
   "description": "Goal-setter app",
   "main": "server.js",
   "scripts": {
