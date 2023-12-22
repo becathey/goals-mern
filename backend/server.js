@@ -4,6 +4,7 @@ const dotenv = require('dotenv').config()
 const colors = require('colors')
 const compression = require('compression')
 const helmet = require('helmet')
+const RateLimit = require('express-rate-limit')
 const {errorHandler} = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
 
@@ -12,6 +13,11 @@ connectDB()
 
 const app = express()
 
+const limiter = RateLimit({
+    windowMs: 1 * 60 * 1000,
+    max: 20,
+})
+app.use(limiter)
 app.use(helmet())
 
 app.use(express.json())
